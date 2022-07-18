@@ -1,9 +1,29 @@
-import { RiUserLocationFill, RiGithubFill } from "react-icons/ri";
+import {
+  RiUserLocationFill,
+  RiGithubFill,
+  RiLinkedinBoxFill,
+} from "react-icons/ri";
 import ProfileImage from "./assets/alex512.jpeg";
 
+import html2pdf from "html2pdf.js";
+
 function App() {
+  const generatePDF = () => {
+    const generateButton = document.getElementById("generate-button");
+    var element = document.getElementById("resume");
+    const opt = {
+      margin: 0,
+      filename: "AlexMcGonagle-Resume.pdf",
+      image: { type: "jpeg", quality: 0.98 },
+      html2canvas: { scale: 2, ignoreElements: [generateButton] },
+      jsPDF: { unit: "in", format: "a3", orientation: "portrait" },
+    };
+
+    html2pdf().set(opt).from(element).save();
+  };
+
   return (
-    <body className="flex-row w-4/5 max-w-[1000px] m-auto p-2">
+    <body id="resume" className="flex-row w-4/5 max-w-[1000px] m-auto p-2">
       <header className="flex m-auto justify-between mb-5">
         <section className="flex">
           <div className="h-[150px] w-[150px] mr-5 rounded-md">
@@ -12,6 +32,14 @@ function App() {
           <div className="flex-row">
             <h1 className="font-bold text-4xl">Alex McGonagle</h1>
             <h2 className="font-light text-xl">Software Engineer</h2>
+            {/* <button
+              id="generate-pdf"
+              type="button"
+              onClick={() => generatePDF()}
+              className="border-2 p-1 rounded-md"
+            >
+              Generate PDF
+            </button> */}
           </div>
         </section>
 
@@ -19,7 +47,7 @@ function App() {
           <div className="border mr-3"></div>
           <div>
             <h2 className="text-xl">About</h2>
-            <hr />
+            <hr className="border border-gray mt-1.5" />
             <div className="flex items-center">
               <RiUserLocationFill className="mr-2" />
               <p>Dublin, Ireland</p>
@@ -34,6 +62,16 @@ function App() {
                 github.com/thevolcanomanishere
               </a>
             </div>
+            <div className="flex items-center">
+              <RiLinkedinBoxFill className="mr-2" />
+              <a
+                className="text-blue-500"
+                href="https://www.linkedin.com/in/bitsofcode/"
+                target="_blank"
+              >
+                linkedin.com/in/bitsofcode/
+              </a>
+            </div>
           </div>
         </section>
       </header>
@@ -42,8 +80,8 @@ function App() {
         <section>
           <div className="flex-row w-full">
             <div className="flex-row items-center">
-              <h2 className="text-xl mr-2 font-serif">Skills</h2>
-              <div className="flex-grow h-px bg-gray-400 mb-2"></div>
+              <h2 className="text-2xl mr-2 font-serif">Skills</h2>
+              <hr className="border border-gray mt-1.5" />
             </div>
             <div className="flex-row space-y-2 mb-2">
               <p>Typescript, React, GraphQL, Ethers, Next.js, Tailwind, Jest</p>
@@ -65,8 +103,9 @@ function App() {
               <h2 className="text-xl mr-2 font-serif">
                 Professional Experience
               </h2>
-              <div className="flex-grow h-px bg-gray-400 mb-2"></div>
+              <hr className="border border-gray mt-1.5" />
             </div>
+
             <div className="flex-row space-y-2 mb-2">
               <div className="flex justify-between">
                 <h2 className="font-bold text-lg">
@@ -226,41 +265,90 @@ function App() {
               </div>
               <h2>
                 <a
-                  href="https://cartrawler.com"
+                  href="https://www.version1.com/"
                   target="_blank"
                   className="text-blue-500"
                 >
-                  Cartrawler
+                  Version 1
                 </a>
               </h2>
+              <p>
+                Version 1 is an international management consulting, managed
+                services, software development, and outsourcing company.
+              </p>
               <ul className="ml-4 list-disc">
                 <li>
-                  Designed, built, and maintained production React-Native apps
+                  Developed fast and responsive cross-platform mobile
+                  applications using Ionic Hybrid Apps + ASP.NET MVC
                 </li>
                 <li>
-                  Created performant and maintainable code using Javascript +
-                  Flow, Java, and Objective-C
+                  Developed responsive web applications and ensure compatibility
+                  with older browsers (IE 9+)
                 </li>
-                <li>Created native bridge modules for iOS and Android</li>
+                <li>Attended daily stand-up meetings to report on progress</li>
+                <li>Responded to bugs in TFS</li>
                 <li>
-                  Created bash scripts to automate deployments to CodePush and
-                  create source maps for Sentry
-                </li>
-                <li>
-                  Directly managed a team of software engineers daily using an
-                  agile methodology
-                </li>
-                <li>Managed and track tasks using Jira</li>
-                <li>Code review pulls requests using Stash/Jira integration</li>
-                <li>
-                  Developed, updated, and advocated for the technical direction
-                  of the mobile product
+                  Presented interesting technologies and insights twice monthly
+                  during internal developer catch up meetings
                 </li>
                 <li>
-                  Acted as an interface between the engineers, business
-                  analysts, and partner managers
+                  Worked directly with the UI team members to ensure responsive
+                  best practices
                 </li>
               </ul>
+            </div>
+            <div className="flex-row items-center">
+              <h2 className="text-xl mr-2 font-serif">Education</h2>
+              <hr className="border border-gray mt-1.5" />
+            </div>
+            <div className="flex-row space-y-2 mb-2">
+              <div className="flex justify-between">
+                <h2 className="font-bold text-lg">
+                  Postgraduate Diploma in Science in Computing -{" "}
+                  <a
+                    className="text-blue-500"
+                    href="https://www.qqi.ie/what-we-do/the-qualifications-system/national-framework-of-qualifications"
+                  >
+                    QQI Level 9
+                  </a>
+                </h2>
+                <p>2015 - 2016</p>
+              </div>
+              <h2>
+                <a
+                  href="https://www.ncirl.ie/"
+                  target="_blank"
+                  className="text-blue-500"
+                >
+                  National College of Ireland
+                </a>
+                <p>Grade: 1.1 - Highest grade achieveable</p>
+              </h2>
+            </div>
+
+            <div className="flex-row space-y-2 mb-2">
+              <div className="flex justify-between">
+                <h2 className="font-bold text-lg">
+                  Higher Diploma in Science in Computing -{" "}
+                  <a
+                    className="text-blue-500"
+                    href="https://www.qqi.ie/what-we-do/the-qualifications-system/national-framework-of-qualifications"
+                  >
+                    QQI Level 8
+                  </a>
+                </h2>
+                <p>2014 - 2015</p>
+              </div>
+              <h2>
+                <a
+                  href="https://www.ncirl.ie/"
+                  target="_blank"
+                  className="text-blue-500"
+                >
+                  National College of Ireland
+                </a>
+                <p>Grade: 1.1 - Highest grade achieveable</p>
+              </h2>
             </div>
           </div>
         </section>
