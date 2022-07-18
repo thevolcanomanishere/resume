@@ -50,9 +50,9 @@ function App() {
         <section className="flex">
           <div className="border mr-3 hidden md:display"></div>
           <div>
-            <h2 className="text-xl">About</h2>
+            <h2 className="text-2xl font-serif">About</h2>
             <hr className="border border-gray mt-1.5" />
-            <div className="flex items-center">
+            <div className="flex items-center mt-2">
               <RiUserLocationFill className="mr-2" />
               <p>Dublin, Ireland</p>
             </div>
