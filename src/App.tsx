@@ -2,6 +2,7 @@ import {
   RiUserLocationFill,
   RiGithubFill,
   RiLinkedinBoxFill,
+  RiMailFill,
 } from "react-icons/ri";
 import ProfileImage from "./assets/alex512.jpeg";
 
@@ -70,6 +71,12 @@ function App() {
                 target="_blank"
               >
                 linkedin.com/in/bitsofcode/
+              </a>
+            </div>
+            <div className="flex items-center">
+              <RiMailFill className="mr-2" />
+              <a href="mailto: alex.mcgonagle.dev@gmail.com">
+                alex.mcgonagle.dev@gmail.com
               </a>
             </div>
           </div>
@@ -144,7 +151,7 @@ function App() {
               </div>
               <h2>
                 <a
-                  href="https://github.com/mello-defi"
+                  href="https://thedeficoach.com"
                   target="_blank"
                   className="text-blue-500"
                 >
