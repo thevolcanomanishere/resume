@@ -333,7 +333,7 @@ function App() {
               </h2>
             </div>
 
-            <div className="flex-row space-y-2 mb-2">
+            <div className="flex-row space-y-2 mb-20">
               <div className="flex justify-between">
                 <h2 className="font-bold text-lg">
                   Higher Diploma in Science in Computing -{" "}
