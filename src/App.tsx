@@ -115,7 +115,7 @@ function App() {
 
             <div className="flex-row space-y-2 mb-2">
               <div className="flex justify-between">
-                <h2 className="font-bold text-lg">
+                <h2 className="font-bold text-lg mt-3">
                   Software Engineer & Co-Founder
                 </h2>
                 <p>2022 Jan - Present</p>
@@ -310,7 +310,7 @@ function App() {
             </div>
             <div className="flex-row space-y-2 mb-2">
               <div className="flex justify-between">
-                <h2 className="font-bold text-lg">
+                <h2 className="font-bold text-lg mt-3">
                   Postgraduate Diploma in Science in Computing -{" "}
                   <a
                     className="text-blue-500"
