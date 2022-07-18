@@ -28,7 +28,7 @@ function App() {
       id="resume"
       className="flex-row w-4/5 sm:8/9 max-w-[1000px] m-auto p-2"
     >
-      <header className="flex [500px]:flex-row m-auto justify-between mb-5">
+      <header className="flex flex-col md:flex-row m-auto justify-between mb-5">
         <section className="flex">
           <div className="h-[150px] w-[150px] mr-5 rounded-md">
             <img src={ProfileImage} />
@@ -48,7 +48,7 @@ function App() {
         </section>
 
         <section className="flex">
-          <div className="border mr-3"></div>
+          <div className="border mr-3 hidden md:display"></div>
           <div>
             <h2 className="text-xl">About</h2>
             <hr className="border border-gray mt-1.5" />
