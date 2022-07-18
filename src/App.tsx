@@ -24,8 +24,11 @@ function App() {
   // };
 
   return (
-    <body id="resume" className="flex-row w-4/5 max-w-[1000px] m-auto p-2">
-      <header className="flex m-auto justify-between mb-5">
+    <body
+      id="resume"
+      className="flex-row w-4/5 sm:8/9 max-w-[1000px] m-auto p-2"
+    >
+      <header className="flex [500px]:flex-row m-auto justify-between mb-5">
         <section className="flex">
           <div className="h-[150px] w-[150px] mr-5 rounded-md">
             <img src={ProfileImage} />
@@ -114,8 +117,8 @@ function App() {
             </div>
 
             <div className="flex-row space-y-2 mb-2">
-              <div className="flex justify-between">
-                <h2 className="font-bold text-lg mt-3">
+              <div className="flex justify-between mt-3">
+                <h2 className="font-bold text-lg ">
                   Software Engineer & Co-Founder
                 </h2>
                 <p>2022 Jan - Present</p>
