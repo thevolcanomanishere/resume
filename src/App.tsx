@@ -5,22 +5,22 @@ import {
 } from "react-icons/ri";
 import ProfileImage from "./assets/alex512.jpeg";
 
-import html2pdf from "html2pdf.js";
+// import html2pdf from "html2pdf.js";
 
 function App() {
-  const generatePDF = () => {
-    const generateButton = document.getElementById("generate-button");
-    var element = document.getElementById("resume");
-    const opt = {
-      margin: 0,
-      filename: "AlexMcGonagle-Resume.pdf",
-      image: { type: "jpeg", quality: 0.98 },
-      html2canvas: { scale: 2, ignoreElements: [generateButton] },
-      jsPDF: { unit: "in", format: "a3", orientation: "portrait" },
-    };
+  // const generatePDF = () => {
+  //   const generateButton = document.getElementById("generate-button");
+  //   var element = document.getElementById("resume");
+  //   const opt = {
+  //     margin: 0,
+  //     filename: "AlexMcGonagle-Resume.pdf",
+  //     image: { type: "jpeg", quality: 0.98 },
+  //     html2canvas: { scale: 2, ignoreElements: [generateButton] },
+  //     jsPDF: { unit: "in", format: "a3", orientation: "portrait" },
+  //   };
 
-    html2pdf().set(opt).from(element).save();
-  };
+  //   html2pdf().set(opt).from(element).save();
+  // };
 
   return (
     <body id="resume" className="flex-row w-4/5 max-w-[1000px] m-auto p-2">
