@@ -5,13 +5,19 @@ import {
   RiMailFill,
 } from "react-icons/ri";
 import ProfileImage from "./assets/alex512.jpeg";
+import BottleneckImage from "./assets/logos/bottleneck-logo-dark.png";
+import CartrawlerImage from "./assets/logos/Cartrawler_Logo.jpeg";
+import Version1Image from "./assets/logos/Version1.png";
+import TheDeFiCoachImage from "./assets/logos/TheDeFiCoach.jpg";
+import MelloImage from "./assets/logos/Mello.png";
+import NCIRLImage from "./assets/logos/NCIRL.png";
 
 // import html2pdf from "html2pdf.js";
 
 function App() {
   // const generatePDF = () => {
   //   const generateButton = document.getElementById("generate-button");
-  //   var element = document.getElementById("resume");
+  //   var element = document.getElementByIsd("resume");
   //   const opt = {
   //     margin: 0,
   //     filename: "AlexMcGonagle-Resume.pdf",
@@ -90,7 +96,7 @@ function App() {
         <section>
           <div className="flex-row w-full">
             <div className="flex-row items-center">
-              <h2 className="text-2xl mr-2 font-serif">Skills</h2>
+              <h2 className="text-2xl mr-2 font-serif">Recent Technologies</h2>
               <hr className="border border-gray mt-1.5" />
             </div>
             <div className="flex-row space-y-2 mb-2">
@@ -109,19 +115,22 @@ function App() {
 
         <section>
           <div className="flex-row w-full">
-            <div className="flex-row items-center">
-              <h2 className="text-xl mr-2 font-serif">
+            <div className="flex-row items-center mt-2">
+              <h2 className="text-2xl mr-2 font-serif">
                 Professional Experience
               </h2>
               <hr className="border border-gray mt-1.5" />
             </div>
 
-            <div className="flex-row space-y-2 mb-2">
-              <div className="flex justify-between mt-3">
-                <h2 className="font-bold text-lg ">
-                  Software Engineer & Co-Founder
-                </h2>
-                <p>2022 Jan - Present</p>
+            <div className="flex-row space-y-2 mb-2 mt-8">
+              <div className="flex flex-col">
+                <img className="w-[200px] mb-3" src={MelloImage} />
+                <div className="flex flex-col md:flex-row justify-between mt-3">
+                  <h2 className="font-bold text-lg ">
+                    Software Engineer & Co-Founder
+                  </h2>
+                  <p>2022 Jan - Present</p>
+                </div>
               </div>
               <h2>
                 <a
@@ -147,10 +156,13 @@ function App() {
               </ul>
             </div>
 
-            <div className="flex-row space-y-2 mb-2">
-              <div className="flex justify-between">
-                <h2 className="font-bold text-lg">Consultant & Co-Founder</h2>
-                <p>2021 May - Present</p>
+            <div className="flex-row space-y-2 mb-2 mt-8">
+              <div className="flex flex-col">
+                <img className="w-[200px] mb-3" src={TheDeFiCoachImage} />
+                <div className="flex flex-col md:flex-row justify-between">
+                  <h2 className="font-bold text-lg">Consultant & Co-Founder</h2>
+                  <p>2021 May - Present</p>
+                </div>
               </div>
               <h2>
                 <a
@@ -185,12 +197,15 @@ function App() {
               </ul>
             </div>
 
-            <div className="flex-row space-y-2 mb-2">
-              <div className="flex justify-between">
-                <h2 className="font-bold text-lg">
-                  Software Engineer & Co-Founder
-                </h2>
-                <p>2019 Mar - 2021 Dec</p>
+            <div className="flex-row space-y-2 mb-2 mt-8">
+              <div className="flex flex-col">
+                <img className="w-[200px] mb-3" src={BottleneckImage} />
+                <div className="flex  flex-col md:flex-row  justify-between">
+                  <h2 className="font-bold text-lg">
+                    Software Engineer & Co-Founder
+                  </h2>
+                  <p>2019 Mar - 2021 Dec</p>
+                </div>
               </div>
               <h2>Bottleneck</h2>
               <p>
@@ -222,10 +237,13 @@ function App() {
               </ul>
             </div>
 
-            <div className="flex-row space-y-2 mb-2">
-              <div className="flex justify-between">
-                <h2 className="font-bold text-lg">Lead Frontend Engineer</h2>
-                <p>2017 Jun - 2019 Mar</p>
+            <div className="flex-row space-y-2 mb-2 mt-7">
+              <div className="flex flex-col">
+                <img className="w-[200px] mb-2" src={CartrawlerImage} />
+                <div className="flex flex-col md:flex-row  justify-between">
+                  <h2 className="font-bold text-lg">Lead Frontend Engineer</h2>
+                  <p>2017 Jun - 2019 Mar</p>
+                </div>
               </div>
               <h2>
                 <a
@@ -236,6 +254,10 @@ function App() {
                   Cartrawler
                 </a>
               </h2>
+              <p>
+                CarTrawler designs, builds and powers customised end-to-end car
+                rental and mobility solutions.
+              </p>
               <ul className="ml-4 list-disc">
                 <li>
                   Designed, built, and maintained production React-Native apps
@@ -266,12 +288,15 @@ function App() {
               </ul>
             </div>
 
-            <div className="flex-row space-y-2 mb-2">
-              <div className="flex justify-between">
-                <h2 className="font-bold text-lg">
-                  Graduate Software Engineer
-                </h2>
-                <p>2016 Sep - 2017 Jun</p>
+            <div className="flex-row space-y-2 mb-2 mt-7">
+              <div className="flex flex-col">
+                <img className="w-[200px] mb-2" src={Version1Image} />
+                <div className="flex flex-col md:flex-row  justify-between">
+                  <h2 className="font-bold text-lg">
+                    Graduate Software Engineer
+                  </h2>
+                  <p>2016 Sep - 2017 Jun</p>
+                </div>
               </div>
               <h2>
                 <a
@@ -312,7 +337,8 @@ function App() {
               <hr className="border border-gray mt-1.5" />
             </div>
             <div className="flex-row space-y-2 mb-2">
-              <div className="flex justify-between">
+              <img className="w-[150px] mt-5" src={NCIRLImage} />
+              <div className="flex flex-col md:flex-row  justify-between">
                 <h2 className="font-bold text-lg mt-3">
                   Postgraduate Diploma in Science in Computing -{" "}
                   <a
@@ -337,7 +363,7 @@ function App() {
             </div>
 
             <div className="flex-row space-y-2 mb-20">
-              <div className="flex justify-between">
+              <div className="flex flex-col md:flex-row  justify-between">
                 <h2 className="font-bold text-lg">
                   Higher Diploma in Science in Computing -{" "}
                   <a
