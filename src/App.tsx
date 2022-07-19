@@ -272,8 +272,7 @@ function App() {
                   create source maps for Sentry
                 </li>
                 <li>
-                  Directly managed a team of software engineers daily using an
-                  agile methodology
+                  Directly managed a team of 18 graduate software engineers
                 </li>
                 <li>Managed and track tasks using Jira</li>
                 <li>Code review pulls requests using Stash/Jira integration</li>
