@@ -14,7 +14,7 @@ import NCIRLImage from "./assets/NCIRL.png";
 
 // import html2pdf from "html2pdf.js";
 
-function App() {
+const App = () => {
   // const generatePDF = () => {
   //   const generateButton = document.getElementById("generate-button");
   //   var element = document.getElementByIsd("resume");
@@ -390,6 +390,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
