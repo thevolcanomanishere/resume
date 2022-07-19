@@ -152,7 +152,7 @@ const App = () => {
                 <li>
                   Worked directly with UI/UX contractors on frontend overhaul
                 </li>
-                <li>Made small contributions to the codebase</li>
+                <li>Made contributions to the codebase</li>
               </ul>
             </div>
 
