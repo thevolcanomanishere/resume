@@ -5,12 +5,12 @@ import {
   RiMailFill,
 } from "react-icons/ri";
 import ProfileImage from "./assets/alex512.jpeg";
-import BottleneckImage from "./assets/logos/bottleneck-logo-dark.png";
-import CartrawlerImage from "./assets/logos/Cartrawler_Logo.jpeg";
-import Version1Image from "./assets/logos/Version1.png";
-import TheDeFiCoachImage from "./assets/logos/TheDeFiCoach.jpg";
-import MelloImage from "./assets/logos/Mello.png";
-import NCIRLImage from "./assets/logos/NCIRL.png";
+import BottleneckImage from "./assets/bottleneck-logo-dark.png";
+import CartrawlerImage from "./assets/Cartrawler_Logo.jpeg";
+import Version1Image from "./assets/Version1.png";
+import TheDeFiCoachImage from "./assets/TheDeFiCoach.jpg";
+import MelloImage from "./assets/Mello.png";
+import NCIRLImage from "./assets/NCIRL.png";
 
 // import html2pdf from "html2pdf.js";
 
