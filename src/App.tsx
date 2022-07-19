@@ -32,12 +32,12 @@ const App = () => {
   return (
     <div
       id="resume"
-      className="flex-row w-4/5 sm:8/9 max-w-[1000px] m-auto p-2"
+      className="flex-row w-4/5 sm:8/9 max-w-[1000px] m-auto px-2 pt-4"
     >
       <header className="flex flex-col md:flex-row m-auto justify-between mb-5">
-        <section className="flex">
-          <div className="h-[150px] w-[150px] mr-5 rounded-md">
-            <img src={ProfileImage} />
+        <section className="flex flex-col md:flex-row mb-4">
+          <div className="h-[150px] w-[150px] mr-5 mb-5">
+            <img className="rounded-lg border-none" src={ProfileImage} />
           </div>
           <div className="flex-row">
             <h1 className="font-bold text-4xl">Alex McGonagle</h1>
@@ -99,7 +99,7 @@ const App = () => {
               <h2 className="text-2xl mr-2 font-serif">Recent Technologies</h2>
               <hr className="border border-gray mt-1.5" />
             </div>
-            <div className="flex-row space-y-2 mb-2">
+            <div className="flex-row space-y-2 my-4">
               <p>Typescript, React, GraphQL, Ethers, Next.js, Tailwind, Jest</p>
               <p>
                 Node.js, Express, Fastify, MongoDB, Google App Engine, Cloud
