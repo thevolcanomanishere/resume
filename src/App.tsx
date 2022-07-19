@@ -30,7 +30,7 @@ function App() {
   // };
 
   return (
-    <body
+    <div
       id="resume"
       className="flex-row w-4/5 sm:8/9 max-w-[1000px] m-auto p-2"
     >
@@ -388,7 +388,7 @@ function App() {
           </div>
         </section>
       </div>
-    </body>
+    </div>
   );
 }
 
