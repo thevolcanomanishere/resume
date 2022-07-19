@@ -142,7 +142,7 @@ const App = () => {
                 </a>
               </h2>
               <p>
-                Mello DeFi aims to educate new users to DeFi by guiding them
+                Mello DeFi aims to educate new users in DeFi by guiding them
                 through the most common DeFi actions and streamlining the
                 onboarding experience. Mello has not fully launched due to
                 market conditions.
