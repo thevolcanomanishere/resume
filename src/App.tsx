@@ -60,7 +60,7 @@ function App() {
             <hr className="border border-gray mt-1.5" />
             <div className="flex items-center mt-2">
               <RiUserLocationFill className="mr-2" />
-              <p>Dublin, Ireland</p>
+              <p>Remote, Europe</p>
             </div>
             <div className="flex items-center">
               <RiGithubFill className="mr-2" />
