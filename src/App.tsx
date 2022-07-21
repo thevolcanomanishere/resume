@@ -100,13 +100,16 @@ const App = () => {
               <hr className="border border-gray mt-1.5" />
             </div>
             <div className="flex-row space-y-2 my-4">
-              <p>Typescript, React, GraphQL, Ethers, Next.js, Tailwind, Jest</p>
+              <p>
+                Typescript, React, Redux, urql, Apollo, GraphQL, Ethers,
+                Next.js, Tailwind, Jest
+              </p>
               <p>
                 Node.js, Express, Fastify, MongoDB, Google App Engine, Cloud
                 Functions, Firebase, Web Sockets, Memcached, Redis, AWS Lambdas,
                 Amazon S3, Google Cloud Storage, Google Cloud Run, Serverless
                 Framework, Cloudflare Workers, Cloudflare R3, IPFS, Pinata,
-                Fleek, Storybook
+                Fleek, Storybook, Vite
               </p>
               <p>Docker, Postman, Twilio, Git</p>
             </div>
