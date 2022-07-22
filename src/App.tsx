@@ -11,6 +11,7 @@ import Version1Image from "./assets/Version1.png";
 import TheDeFiCoachImage from "./assets/TheDeFiCoach.jpg";
 import MelloImage from "./assets/Mello.png";
 import NCIRLImage from "./assets/NCIRL.png";
+import { useState } from "react";
 
 // import html2pdf from "html2pdf.js";
 
@@ -29,6 +30,8 @@ const App = () => {
   //   html2pdf().set(opt).from(element).save();
   // };
 
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
     <div
       id="resume"
@@ -37,7 +40,15 @@ const App = () => {
       <header className="flex flex-col md:flex-row m-auto justify-between mb-5">
         <section className="flex flex-col md:flex-row mb-4">
           <div className="h-[150px] w-[150px] mr-5 mb-5">
-            <img className="rounded-lg border-none" src={ProfileImage} />
+            {isLoading ? (
+              <div className="animate-pulse w-full h-full rounded-lg  bg-slate-400" />
+            ) : null}
+
+            <img
+              className={isLoading ? "hidden" : "rounded-lg border-none"}
+              src={ProfileImage}
+              onLoad={() => setIsLoading(false)}
+            />
           </div>
           <div className="flex-row">
             <h1 className="font-bold text-4xl">Alex McGonagle</h1>
