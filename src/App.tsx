@@ -120,7 +120,7 @@ const App = () => {
                 Functions, Firebase, Web Sockets, Memcached, Redis, AWS Lambdas,
                 Amazon S3, Google Cloud Storage, Google Cloud Run, Serverless
                 Framework, Cloudflare Workers, Cloudflare R3, IPFS, Pinata,
-                Fleek, Storybook, Vite
+                Fleek, Storybook, Vite, Vercel
               </p>
               <p>Docker, Postman, Twilio, Git</p>
             </div>
@@ -138,7 +138,7 @@ const App = () => {
 
             <div className="flex-row space-y-2 mb-2 mt-8">
               <div className="flex flex-col">
-                <img className="w-[200px] mb-3" src={MelloImage} />
+                <img className="w-[200px] h-[60px] mb-3" src={MelloImage} />
                 <div className="flex flex-col md:flex-row justify-between mt-3">
                   <h2 className="font-bold text-lg ">
                     Software Engineer & Co-Founder
@@ -172,7 +172,10 @@ const App = () => {
 
             <div className="flex-row space-y-2 mb-2 mt-8">
               <div className="flex flex-col">
-                <img className="w-[200px] mb-3" src={TheDeFiCoachImage} />
+                <img
+                  className="w-[200px] h-[65px] mb-3"
+                  src={TheDeFiCoachImage}
+                />
                 <div className="flex flex-col md:flex-row justify-between">
                   <h2 className="font-bold text-lg">Consultant & Co-Founder</h2>
                   <p>2021 May - Present</p>
@@ -213,7 +216,7 @@ const App = () => {
 
             <div className="flex-row space-y-2 mb-2 mt-8">
               <div className="flex flex-col">
-                <img className="w-[200px] mb-3" src={BottleneckImage} />
+                <img className="w-[200px] h-full mb-3" src={BottleneckImage} />
                 <div className="flex  flex-col md:flex-row  justify-between">
                   <h2 className="font-bold text-lg">
                     Software Engineer & Co-Founder
@@ -253,7 +256,7 @@ const App = () => {
 
             <div className="flex-row space-y-2 mb-2 mt-7">
               <div className="flex flex-col">
-                <img className="w-[200px] mb-2" src={CartrawlerImage} />
+                <img className="w-[200px] h-full mb-2" src={CartrawlerImage} />
                 <div className="flex flex-col md:flex-row  justify-between">
                   <h2 className="font-bold text-lg">Lead Frontend Engineer</h2>
                   <p>2017 Jun - 2019 Mar</p>
@@ -303,7 +306,7 @@ const App = () => {
 
             <div className="flex-row space-y-2 mb-2 mt-7">
               <div className="flex flex-col">
-                <img className="w-[200px] mb-2" src={Version1Image} />
+                <img className="w-[200px] h-full mb-2" src={Version1Image} />
                 <div className="flex flex-col md:flex-row  justify-between">
                   <h2 className="font-bold text-lg">
                     Graduate Software Engineer
@@ -350,7 +353,7 @@ const App = () => {
               <hr className="border border-gray mt-1.5" />
             </div>
             <div className="flex-row space-y-2 mb-2">
-              <img className="w-[150px] mt-5" src={NCIRLImage} />
+              <img className="w-[150px] h-full mt-5" src={NCIRLImage} />
               <div className="flex flex-col md:flex-row  justify-between">
                 <h2 className="font-bold text-lg mt-3">
                   Postgraduate Diploma in Science in Computing -{" "}
