@@ -3,6 +3,7 @@ import {
   RiGithubFill,
   RiLinkedinBoxFill,
   RiMailFill,
+  RiBook3Line,
 } from "react-icons/ri";
 import { useState } from "react";
 import ProfileImage from "./assets/alex512.jpeg";
@@ -68,6 +69,16 @@ const App = () => {
                 target="_blank"
               >
                 linkedin.com/in/bitsofcode/
+              </a>
+            </div>
+            <div className="flex items-center">
+              <RiBook3Line className="mr-2" />
+              <a
+                className="text-blue-500"
+                href="https://www.frontendmentor.io/profile/thevolcanomanishere"
+                target="_blank"
+              >
+                frontendmentor.io/profile/thevolcanomanishere
               </a>
             </div>
             <div className="flex items-center">
