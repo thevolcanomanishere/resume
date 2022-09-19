@@ -4,6 +4,7 @@ import {
   RiLinkedinBoxFill,
   RiMailFill,
 } from "react-icons/ri";
+import { useState } from "react";
 import ProfileImage from "./assets/alex512.jpeg";
 import BottleneckImage from "./assets/bottleneck-logo-dark.png";
 import CartrawlerImage from "./assets/CarTrawler_Logo.jpeg";
@@ -11,25 +12,8 @@ import Version1Image from "./assets/Version1.png";
 import TheDeFiCoachImage from "./assets/TheDeFiCoach.jpg";
 import MelloImage from "./assets/Mello.png";
 import NCIRLImage from "./assets/NCIRL.png";
-import { useState } from "react";
-
-// import html2pdf from "html2pdf.js";
 
 const App = () => {
-  // const generatePDF = () => {
-  //   const generateButton = document.getElementById("generate-button");
-  //   var element = document.getElementByIsd("resume");
-  //   const opt = {
-  //     margin: 0,
-  //     filename: "AlexMcGonagle-Resume.pdf",
-  //     image: { type: "jpeg", quality: 0.98 },
-  //     html2canvas: { scale: 2, ignoreElements: [generateButton] },
-  //     jsPDF: { unit: "in", format: "a3", orientation: "portrait" },
-  //   };
-
-  //   html2pdf().set(opt).from(element).save();
-  // };
-
   const [isLoading, setIsLoading] = useState(true);
 
   return (
@@ -54,14 +38,6 @@ const App = () => {
           <div className="flex-row">
             <h1 className="font-bold text-4xl">Alex McGonagle</h1>
             <h2 className="font-light text-xl">Software Engineer</h2>
-            {/* <button
-              id="generate-pdf"
-              type="button"
-              onClick={() => generatePDF()}
-              className="border-2 p-1 rounded-md"
-            >
-              Generate PDF
-            </button> */}
           </div>
         </section>
 
@@ -105,6 +81,20 @@ const App = () => {
       </header>
 
       <div className="flex-row">
+        {/* <div className="flex space-x-4">
+          <GithubLogo />
+          <h1 className="text-2xl font-serif">Github Contribution Stats</h1>
+        </div>
+        <section className="w-full">
+          <ReactGitHubCalendar
+            responsive
+            summary_text="This is the summary"
+            userName="thevolcanomanishere"
+            tooltips={false}
+            global_stats={false}
+          />
+        </section> */}
+
         <section>
           <div className="flex-row w-full">
             <div className="flex-row items-center">
@@ -135,6 +125,48 @@ const App = () => {
                 Professional Experience
               </h2>
               <hr className="border border-gray mt-1.5" />
+            </div>
+
+            <div className="flex-row space-y-2 mb-2 mt-4">
+              <div className="flex flex-col">
+                <div className="flex flex-col md:flex-row justify-between mt-3">
+                  <h2 className="font-bold text-lg ">
+                    Freelance Software Engineer
+                  </h2>
+                  <p>2019 Mar - Present</p>
+                </div>
+              </div>
+
+              <p>
+                Working on multiple different frontend, backend, and mobile
+                projects for various clients. Some interesting projects include:
+              </p>
+              <ul className="ml-4 list-disc">
+                <li>
+                  Ticket aggregation component for{" "}
+                  <a target="_blank" href="https://Bingo-Loco.com/tickets">
+                    Bingo-Loco.com/tickets
+                  </a>{" "}
+                  that combines multiple different ticket sources into a single
+                  view. <i>React, Express, Google Cloud Functions, Webpack.</i>
+                </li>
+                <li>
+                  Audience/presenter Bingo game controller prototype that
+                  replaced a physical machine.{" "}
+                  <i>
+                    React, React Native, Tailwind, Electron, WebSockets,
+                    Bonjour.
+                  </i>
+                </li>
+                <li>
+                  Randomized digital Bingo card distribution service that
+                  delivered Bingo cards via Facebook Messenger or via a link.
+                  <i>
+                    Cloudflare Workers, Cloudflare R2 (File storage), Facebook
+                    API
+                  </i>
+                </li>
+              </ul>
             </div>
 
             <div className="flex-row space-y-2 mb-2 mt-8">
