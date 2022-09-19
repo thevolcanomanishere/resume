@@ -40,8 +40,8 @@ const App = () => {
             <h1 className="font-bold text-4xl">Alex McGonagle</h1>
             <h2 className="font-light text-xl">Software Engineer</h2>
             <p>
-              This website uses React + Tailwind + Vite <br></br> and is
-              deployed on Vercel 💾.
+              This website uses React + Tailwind + Vite <br /> and is deployed
+              on Vercel 💾.
             </p>
           </div>
         </section>
