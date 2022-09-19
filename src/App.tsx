@@ -160,10 +160,10 @@ const App = () => {
                 </li>
                 <li>
                   Randomized digital Bingo card distribution service that
-                  delivered Bingo cards via Facebook Messenger or via a link.
+                  delivered Bingo cards via Facebook Messenger or via a link.{" "}
                   <i>
                     Cloudflare Workers, Cloudflare R2 (File storage), Facebook
-                    API
+                    API.
                   </i>
                 </li>
               </ul>
