@@ -144,26 +144,38 @@ const App = () => {
               <ul className="ml-4 list-disc">
                 <li>
                   Ticket aggregation component for{" "}
-                  <a target="_blank" href="https://Bingo-Loco.com/tickets">
-                    Bingo-Loco.com/tickets
+                  <a href="https://bingo-loco.com/tickets" target="_blank">
+                    Bingo-loco.com/tickets
                   </a>{" "}
-                  that combines multiple different ticket sources into a single
-                  view. <i>React, Express, Google Cloud Functions, Webpack.</i>
-                </li>
-                <li>
-                  Audience/presenter Bingo game controller prototype that
-                  replaced a physical machine.{" "}
+                  that has processed $5 million+ in ticket sales and served 15
+                  million requests with 0 ongoing costs to the company.{" "}
                   <i>
-                    React, React Native, Tailwind, Electron, WebSockets,
-                    Bonjour.
+                    <strong>
+                      React, Webpack, Express, Google Cloud Functions,
+                      Cloudflare Serverless Workers, Typescript, MongoDb
+                    </strong>
                   </i>
                 </li>
                 <li>
-                  Randomized digital Bingo card distribution service that
-                  delivered Bingo cards via Facebook Messenger or via a link.{" "}
+                  Customisable PDF distribution system for Bingo-Loco.com that
+                  enabled their staff to create shareable links that randomised
+                  the download of a Bingo Card for their corporate clients.{" "}
                   <i>
-                    Cloudflare Workers, Cloudflare R2 (File storage), Facebook
-                    API.
+                    <strong>
+                      React, Node.js, Express, Cloudflare R2 (AWS S3 clone),
+                      Cloudflare Serverless Workers.
+                    </strong>
+                  </i>
+                </li>
+                <li>
+                  Digital Bingo presentation system for their show presenters to
+                  replace their manual electronic random bingo number generator
+                  system.{" "}
+                  <i>
+                    <strong>
+                      React, React Native, Electron, Tailwind, Typescript,
+                      Javascript, WebSockets, Bonjour/ZeroConf, Express.
+                    </strong>
                   </i>
                 </li>
               </ul>
