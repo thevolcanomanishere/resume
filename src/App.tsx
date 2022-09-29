@@ -455,7 +455,7 @@ const App = () => {
                 >
                   National College of Ireland
                 </a>
-                <p>Grade: 1.1 - Highest grade achieveable</p>
+                <p>Grade: 1.1 - Highest grade acheiveable</p>
               </h2>
             </div>
 
@@ -480,7 +480,7 @@ const App = () => {
                 >
                   National College of Ireland
                 </a>
-                <p>Grade: 1.1 - Highest grade achieveable</p>
+                <p>Grade: 1.1 - Highest grade acheiveable</p>
               </h2>
             </div>
           </div>
