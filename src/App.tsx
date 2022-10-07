@@ -18,7 +18,7 @@ const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <div
+    <main
       id="resume"
       className="flex-row w-4/5 sm:8/9 max-w-[1000px] m-auto px-2 pt-4"
     >
@@ -40,8 +40,9 @@ const App = () => {
             <h1 className="font-bold text-4xl">Alex McGonagle</h1>
             <h2 className="font-light text-xl">Software Engineer</h2>
             <p>
-              This website uses React + Tailwind + Vite <br /> and is deployed
-              on Vercel 💾.
+              This website uses React + Tailwind + Vite.
+              <br />
+              Deployed on Vercel 💾.
             </p>
           </div>
         </section>
@@ -78,11 +79,11 @@ const App = () => {
             <div className="flex items-center">
               <RiBook3Line className="mr-2" />
               <a
-                className="text-blue-500"
+                className="text-blue-500 truncate"
                 href="https://www.frontendmentor.io/profile/thevolcanomanishere"
                 target="_blank"
               >
-                frontendmentor.io/profile/thevolcanomanishere
+                frontendmentor.io/thevolcanomanishere
               </a>
             </div>
             <div className="flex items-center">
@@ -277,6 +278,20 @@ const App = () => {
                   decentralised finance
                 </li>
               </ul>
+              <h2 className="font-bold text-lg">Media 🗞</h2>
+              <p>
+                <i>
+                  Irish Tech News -{" "}
+                  <a
+                    href="https://irishtechnews.ie/defi-coach-online-course/"
+                    target="_blank"
+                    className="text-blue-500"
+                  >
+                    New Irish Crypto Statup "The DeFi Coach" aims to educate and
+                    empower with online course.
+                  </a>
+                </i>
+              </p>
             </div>
 
             <div className="flex-row space-y-2 mb-2 mt-8">
@@ -321,6 +336,20 @@ const App = () => {
                   system
                 </li>
               </ul>
+              <h2 className="font-bold text-lg">Media 🗞</h2>
+              <p>
+                <i>
+                  Silicon Republic -{" "}
+                  <a
+                    href="https://www.siliconrepublic.com/start-ups/dublin-beta-startup-week-bottleneck"
+                    target="_blank"
+                    className="text-blue-500"
+                  >
+                    Bottleneck wins pitching contest at 2019 revival of Dublin
+                    Beta.
+                  </a>
+                </i>
+              </p>
             </div>
 
             <div className="flex-row space-y-2 mb-2 mt-7">
@@ -375,6 +404,20 @@ const App = () => {
                   analysts, and partner managers
                 </li>
               </ul>
+              <h2 className="font-bold text-lg">Media 🗞</h2>
+              <p>
+                <i>
+                  Cartrawler -{" "}
+                  <a
+                    href="https://www.youtube.com/watch?v=EzIdKeLamQo"
+                    target="_blank"
+                    className="text-blue-500"
+                  >
+                    A video that takes a look inside the day to day life of the
+                    Incubator and the people within it.
+                  </a>
+                </i>
+              </p>
             </div>
 
             <div className="flex-row space-y-2 mb-2 mt-7">
@@ -486,7 +529,7 @@ const App = () => {
           </div>
         </section>
       </div>
-    </div>
+    </main>
   );
 };
 
