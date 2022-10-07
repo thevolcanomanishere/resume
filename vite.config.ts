@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     // ssr({ prerender: true }),
     viteCompression({
-      algorithm: "brotliCompress",
+      algorithm: "gzip",
     }),
   ],
 });
