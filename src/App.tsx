@@ -7,12 +7,12 @@ import {
 } from "react-icons/ri";
 import { useState } from "react";
 import ProfileImage from "./assets/alex512.jpeg";
-import BottleneckImage from "./assets/bottleneck-logo-dark.png";
-import CartrawlerImage from "./assets/CarTrawler_Logo.jpeg";
-import Version1Image from "./assets/Version1.png";
-import TheDeFiCoachImage from "./assets/TheDeFiCoach.jpg";
-import MelloImage from "./assets/Mello.png";
-import NCIRLImage from "./assets/NCIRL.png";
+import BottleneckImage from "./assets/bottleneck-logo-dark.webp";
+import CartrawlerImage from "./assets/CarTrawler_Logo.webp";
+import Version1Image from "./assets/Version1.webp";
+import TheDeFiCoachImage from "./assets/TheDeFiCoach.webp";
+import MelloImage from "./assets/Mello.webp";
+import NCIRLImage from "./assets/NCIRL.webp";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
