@@ -7,7 +7,7 @@ import viteCompression from "vite-plugin-compression";
 export default defineConfig({
   plugins: [
     react(),
-    ssr({ prerender: true }),
+    // ssr({ prerender: true }),
     viteCompression({
       algorithm: "gzip",
     }),
