@@ -142,15 +142,13 @@ const App = () => {
               <h2 className="text-2xl mr-2 font-serif">Personal Projects</h2>
               <hr className="border border-gray mt-1.5" />
             </div>
-            <div className="flex flex-row flex-wrap gap-2">
-
-              <div className="my-4 w-2/5">
+            <div className="flex flex-row flex-wrap justify-between">
+              <div className="my-4 max-w-md">
                 <h1 className="underline text-xl">Phrase Encrypt 🔐</h1>
                 <p>Create, encrypt, and decrypt a crypto secret phrase. Secure BIP39 secret phrase generation, Argon2 password key derivation function. AES256-GCM encryption.</p>
                 <a className="text-blue-500" href="https://github.com/thevolcanomanishere/phrase-encrypt">Github</a>
               </div>
-
-              <div className="my-4 w-2/5">
+              <div className="my-4 max-w-md">
                 <h1 className="underline text-xl">Folder Beam 5000 📁</h1>
                 <p>Beam all files inside of a folder from one computer to another across the internet even if those computers are on separate home networks 🏠.</p>
                 <a className="text-blue-500" href="https://github.com/thevolcanomanishere/folder-beam-5000">Github</a>
