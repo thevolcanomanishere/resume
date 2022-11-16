@@ -13,6 +13,7 @@ import Version1Image from "./assets/Version1.webp";
 import TheDeFiCoachImage from "./assets/TheDeFiCoach.webp";
 import MelloImage from "./assets/Mello.webp";
 import NCIRLImage from "./assets/NCIRL.webp";
+import HypeLogo from "./assets/hype-logo.png"
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -143,6 +144,38 @@ const App = () => {
               <hr className="border border-gray mt-1.5" />
             </div>
 
+            <div className="flex-row space-y-2 mb-2 mt-8">
+              <div className="flex flex-col">
+                <img
+                  className="w-16 mb-3"
+                  src={HypeLogo}
+                  alt="Mello logo"
+                />
+                <div className="flex flex-col md:flex-row justify-between mt-3">
+                  <h2 className="font-bold text-lg ">
+                    Software Engineer
+                  </h2>
+                  <p>2022 Nov - Present</p>
+                </div>
+              </div>
+              <h2>
+                <a
+                  href="https://hypotenuse.ca/"
+                  target="_blank"
+                  className="text-blue-500"
+                >
+                  Hypotenuse Labs
+                </a>
+              </h2>
+              <p>
+              Web 2.0, Web 3.0, AI, ML, and blockchain development consultancy
+              </p>
+              <ul className="ml-4 list-disc">
+                <li>Achievements still loading...</li>
+              </ul>
+            </div>
+            
+
             <div className="flex-row space-y-2 mb-2 mt-4">
               <div className="flex flex-col">
                 <div className="flex flex-col md:flex-row justify-between mt-3">
@@ -208,7 +241,7 @@ const App = () => {
                   <h2 className="font-bold text-lg ">
                     Software Engineer & Co-Founder
                   </h2>
-                  <p>2022 Jan - Present</p>
+                  <p>2022 Jan - 2022 Nov</p>
                 </div>
               </div>
               <h2>
@@ -244,7 +277,7 @@ const App = () => {
                 />
                 <div className="flex flex-col md:flex-row justify-between">
                   <h2 className="font-bold text-lg">Consultant & Co-Founder</h2>
-                  <p>2021 May - Present</p>
+                  <p>2021 May - 2022 Nov</p>
                 </div>
               </div>
               <h2>
