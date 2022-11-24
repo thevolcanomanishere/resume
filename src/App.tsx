@@ -121,7 +121,7 @@ const App = () => {
             <div className="flex-row space-y-2 my-4">
               <p>
                 Typescript, React, Redux, urql, Apollo, GraphQL, Ethers,
-                Next.js, Tailwind, Jest
+                Next.js, Tailwind, Jest, Playwright
               </p>
               <p>
                 Node.js, Express, Fastify, MongoDB, Google App Engine, Cloud
