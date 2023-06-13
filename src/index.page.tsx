@@ -31,7 +31,9 @@ const App = () => {
             ) : null}
 
             <img
-              className={isLoading ? "hidden" : "rounded-lg border-none"}
+              className={
+                isLoading ? "hidden" : "rounded-lg border-none w-full h-full"
+              }
               src={ProfileImage}
               alt="Profile image"
               onLoad={() => setIsLoading(false)}
@@ -186,7 +188,7 @@ const App = () => {
             <div className="flex-row space-y-2 mb-2 mt-8">
               <div className="flex flex-col">
                 <img
-                  className="w-16 mb-3"
+                  className="w-16 h-14 mb-3"
                   src={HypeLogo}
                   alt="Hypotenuse Labs Logo"
                 />
