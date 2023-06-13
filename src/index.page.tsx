@@ -6,14 +6,14 @@ import {
   RiBook3Line,
 } from "react-icons/ri";
 import { useState } from "react";
-import ProfileImage from "./assets/alex512.jpeg";
+import ProfileImage from "./assets/alex512.webp";
 import BottleneckImage from "./assets/bottleneck-logo-dark.webp";
 import CartrawlerImage from "./assets/CarTrawler_Logo.webp";
 import Version1Image from "./assets/Version1.webp";
 import TheDeFiCoachImage from "./assets/TheDeFiCoach.webp";
 import MelloImage from "./assets/Mello.webp";
 import NCIRLImage from "./assets/NCIRL.webp";
-import HypeLogo from "./assets/hype-logo.png"
+import HypeLogo from "./assets/hype-logo.png";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -135,7 +135,6 @@ const App = () => {
           </div>
         </section>
 
-
         <section>
           <div className="flex-row w-full">
             <div className="flex-row items-center">
@@ -145,19 +144,35 @@ const App = () => {
             <div className="flex flex-row flex-wrap justify-between">
               <div className="my-4 max-w-md">
                 <h1 className="underline text-xl">Phrase Encrypt 🔐</h1>
-                <p>Create, encrypt, and decrypt a crypto secret phrase. Secure BIP39 secret phrase generation, Argon2 password key derivation function. AES256-GCM encryption.</p>
-                <a className="text-blue-500" href="https://github.com/thevolcanomanishere/phrase-encrypt">Github</a>
+                <p>
+                  Create, encrypt, and decrypt a crypto secret phrase. Secure
+                  BIP39 secret phrase generation, Argon2 password key derivation
+                  function. AES256-GCM encryption.
+                </p>
+                <a
+                  className="text-blue-500"
+                  href="https://github.com/thevolcanomanishere/phrase-encrypt"
+                >
+                  Github
+                </a>
               </div>
               <div className="my-4 max-w-md">
                 <h1 className="underline text-xl">Folder Beam 5000 📁</h1>
-                <p>Beam all files inside of a folder from one computer to another across the internet even if those computers are on separate home networks 🏠.</p>
-                <a className="text-blue-500" href="https://github.com/thevolcanomanishere/folder-beam-5000">Github</a>
+                <p>
+                  Beam all files inside of a folder from one computer to another
+                  across the internet even if those computers are on separate
+                  home networks 🏠.
+                </p>
+                <a
+                  className="text-blue-500"
+                  href="https://github.com/thevolcanomanishere/folder-beam-5000"
+                >
+                  Github
+                </a>
               </div>
-            </div>  
+            </div>
           </div>
         </section>
-
-
 
         <section>
           <div className="flex-row w-full">
@@ -173,12 +188,10 @@ const App = () => {
                 <img
                   className="w-16 mb-3"
                   src={HypeLogo}
-                  alt="Mello logo"
+                  alt="Hypotenuse Labs Logo"
                 />
                 <div className="flex flex-col md:flex-row justify-between mt-3">
-                  <h2 className="font-bold text-lg ">
-                    Software Engineer
-                  </h2>
+                  <h2 className="font-bold text-lg ">Software Engineer</h2>
                   <p>2022 Nov - Present</p>
                 </div>
               </div>
@@ -192,13 +205,22 @@ const App = () => {
                 </a>
               </h2>
               <p>
-                Web 2.0, Web 3.0, AI, ML, and blockchain development consultancy
+                Web 2.0, Web 3.0, AI, ML, and blockchain development
+                consultancy.
               </p>
+              <h3>
+                <a
+                  href="https://hypotenuse.ca/"
+                  target="_blank"
+                  className="text-blue-500"
+                >
+                  Hypotenuse Labs
+                </a>
+              </h3>
               <ul className="ml-4 list-disc">
-                <li>Achievements still loading...</li>
+                <li>Hello test here scunt</li>
               </ul>
             </div>
-
 
             <div className="flex-row space-y-2 mb-2 mt-4">
               <div className="flex flex-col">
