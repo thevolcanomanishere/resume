@@ -105,7 +105,7 @@ const App = () => {
         <div className="my-4">
           <div className="flex space-x-4 mb-2">
             <GithubLogo />
-            <h1 className="text-2xl font-serif">Github Contribution Stats</h1>
+            <h1 className="text-2xl font-serif">Github Stats</h1>
           </div>
           <section>
             <a href="https://github.com/thevolcanomanishere" target="_blank">
