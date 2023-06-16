@@ -14,6 +14,8 @@ import TheDeFiCoachImage from "./assets/TheDeFiCoach.webp";
 import MelloImage from "./assets/Mello.webp";
 import NCIRLImage from "./assets/NCIRL.webp";
 import HypeLogo from "./assets/hype-logo.png";
+import GitHubCalendar from "react-github-calendar";
+import GithubLogo from "./SVG/GithubLogo";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -100,19 +102,22 @@ const App = () => {
       </header>
 
       <div className="flex-row">
-        {/* <div className="flex space-x-4">
-          <GithubLogo />
-          <h1 className="text-2xl font-serif">Github Contribution Stats</h1>
+        <div className="my-4">
+          <div className="flex space-x-4 mb-2">
+            <GithubLogo />
+            <h1 className="text-2xl font-serif">Github Contribution Stats</h1>
+          </div>
+          <section>
+            <a href="https://github.com/thevolcanomanishere" target="_blank">
+              <GitHubCalendar
+                username={"thevolcanomanishere"}
+                fontSize={16}
+                colorScheme="light"
+                weekStart={1}
+              />
+            </a>
+          </section>
         </div>
-        <section className="w-full">
-          <ReactGitHubCalendar
-            responsive
-            summary_text="This is the summary"
-            userName="thevolcanomanishere"
-            tooltips={false}
-            global_stats={false}
-          />
-        </section> */}
 
         <section>
           <div className="flex-row w-full">
@@ -210,18 +215,6 @@ const App = () => {
                 Web 2.0, Web 3.0, AI, ML, and blockchain development
                 consultancy.
               </p>
-              <h3>
-                <a
-                  href="https://hypotenuse.ca/"
-                  target="_blank"
-                  className="text-blue-500"
-                >
-                  Hypotenuse Labs
-                </a>
-              </h3>
-              <ul className="ml-4 list-disc">
-                <li>Hello test here scunt</li>
-              </ul>
             </div>
 
             <div className="flex-row space-y-2 mb-2 mt-4">
