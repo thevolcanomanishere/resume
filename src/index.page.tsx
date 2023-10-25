@@ -220,13 +220,7 @@ const App = () => {
               <div className="flex flex-col">
                 <div className="flex flex-row space-x-6">
                   <h4 className="flex flex-row space-x-6">
-                    <a
-                      href="https://bracketx.fi/"
-                      target="_blank"
-                      className="text-blue-500"
-                    >
-                      [redacted]
-                    </a>
+                    <p className="text-blue-500">[redacted]</p>
                   </h4>
                   <p>2023 Aug - Now</p>
                 </div>
@@ -388,37 +382,6 @@ const App = () => {
                   </li>
                 </ul>
               </div>
-
-              {/* <h4 className="flex flex-row space-x-6">
-                <a
-                  href="https://hypotenuse.ca/"
-                  target="_blank"
-                  className="text-blue-500"
-                >
-                  Shrapnel
-                </a>
-                <p>2023 Jun - 2023 Jul</p>
-              </h4>
-              <h4 className="flex flex-row space-x-6">
-                <a
-                  href="https://hypotenuse.ca/"
-                  target="_blank"
-                  className="text-blue-500"
-                >
-                  Ensemble
-                </a>
-                <p>2023 Jan - 2023 Jun</p>
-              </h4>
-              <h4 className="flex flex-row space-x-6">
-                <a
-                  href="https://hypotenuse.ca/"
-                  target="_blank"
-                  className="text-blue-500"
-                >
-                  Octave
-                </a>
-                <p>2022 Nov - 2023 Jan</p>
-              </h4> */}
             </div>
 
             <div className="flex-row space-y-2 mb-2 mt-4">
