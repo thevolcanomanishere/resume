@@ -27,14 +27,14 @@ const App = () => {
     >
       <header className="flex flex-col md:flex-row m-auto justify-between mb-5">
         <section className="flex flex-col md:flex-row mb-4">
-          <div className="h-[150px] w-[150px] mr-5 mb-5">
+          <div className="h-[150px] w-[150px] mr-5 mb-5 aspect-square">
             {isLoading ? (
               <div className="animate-pulse w-full h-full rounded-lg  bg-slate-400" />
             ) : null}
 
             <img
               className={
-                isLoading ? "hidden" : "rounded-lg border-none w-full h-full"
+                isLoading ? "hidden" : "rounded-lg border-none w-full h-full "
               }
               src={ProfileImage}
               alt="Profile image"
@@ -135,7 +135,7 @@ const App = () => {
                 Functions, Firebase, Web Sockets, Memcached, Redis, AWS Lambdas,
                 Amazon S3, Google Cloud Storage, Google Cloud Run, Serverless
                 Framework, Cloudflare Workers, Cloudflare R3, IPFS, Pinata,
-                Fleek, Storybook, Vite, Vercel
+                Fleek, Storybook, Vite, Vercel, Server Sent Events
               </p>
               <p>Docker, Postman, Twilio, Git</p>
             </div>
@@ -215,6 +215,210 @@ const App = () => {
                 Web 2.0, Web 3.0, AI, ML, and blockchain development
                 consultancy.
               </p>
+              <h3 className="font-bold text-lg">Projects</h3>
+
+              <div className="flex flex-col">
+                <div className="flex flex-row space-x-6">
+                  <h4 className="flex flex-row space-x-6">
+                    <a
+                      href="https://bracketx.fi/"
+                      target="_blank"
+                      className="text-blue-500"
+                    >
+                      [redacted]
+                    </a>
+                  </h4>
+                  <p>2023 Aug - Now</p>
+                </div>
+                <p>
+                  [redacted] enables crypto users to manage multiple wallets
+                  across different blockchains.
+                </p>
+                <ul className="ml-4 list-disc py-4">
+                  <li>
+                    Developed a Telegram MiniApp that allows users to manage
+                    multiple blockchain wallets from a single interface.
+                  </li>
+                  <li>
+                    Integrated with DFNS for the creation and management of
+                    seedless wallets utilising state of the art MPC/TSS
+                    technology.
+                  </li>
+                  <li>
+                    Designed and built a multi-chain wallet sweeping service to
+                    combine the balances of multiple wallets into a single
+                    wallet.
+                  </li>
+                </ul>
+              </div>
+              <div className="flex flex-col">
+                <div className="flex flex-row space-x-6">
+                  <h4 className="flex flex-row space-x-6">
+                    <a
+                      href="https://bracketx.fi/"
+                      target="_blank"
+                      className="text-blue-500"
+                    >
+                      BracketX
+                    </a>
+                  </h4>
+                  <p>2023 Jul - 2023 Aug</p>
+                </div>
+                <p>
+                  BracketX delivers range-bound products for Decentralized
+                  Finance.
+                </p>
+                <ul className="ml-4 list-disc py-4">
+                  <li>
+                    Designed and built a multi-chain data indexing service for
+                    Chainlink datafeeds.
+                  </li>
+                  <li>
+                    Designed and built a scalable Server Sent Event service to
+                    deliver Chainlink prices for a customized TradingView chart.
+                  </li>
+                  <li>
+                    Customized TradingView Advanced charts to display dynamic
+                    chart drawings simulating onchain price movements.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="flex flex-col">
+                <div className="flex flex-row space-x-6">
+                  <h4 className="flex flex-row space-x-6">
+                    <a
+                      href="https://www.shrapnel.com/"
+                      target="_blank"
+                      className="text-blue-500"
+                    >
+                      Shrapnel
+                    </a>
+                  </h4>
+                  <p>2023 Jun - 2023 Jul</p>
+                </div>
+                <p>
+                  Shrapnel is the 1st blockchain-enabled AAA customizable First
+                  Person Shooter (FPS) video game to be owned by players.
+                </p>
+                <ul className="ml-4 list-disc py-4">
+                  <li>
+                    Built a full featured example for Shrapnel developers of a
+                    LayerZero cross-chain token bridge.
+                  </li>
+                  <li>
+                    Worked with Shrapnel developers to integrate the LayerZero
+                    cross-chain token bridge into the Shrapnel frontend website.
+                  </li>
+                  <li>
+                    Created a set of best practices and guidelines for Shrapnel
+                    developers to follow when integrating LayerZero into their
+                    game.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="flex flex-col">
+                <div className="flex flex-row space-x-6">
+                  <h4 className="flex flex-row space-x-6">
+                    <a
+                      href="https://www.ensemble.art/"
+                      target="_blank"
+                      className="text-blue-500"
+                    >
+                      Ensemble
+                    </a>
+                  </h4>
+                  <p>2023 Jan - 2023 Jun</p>
+                </div>
+                <p>
+                  Ensemble is a platform where artists sell the artifacts from
+                  their creative process and tell the story behind it.
+                </p>
+                <ul className="ml-4 list-disc py-4">
+                  <li>
+                    Redesigned the auction system to enabled live updates as
+                    auctions are progressing and refactored all related code for
+                    performance and maintainability.
+                  </li>
+                  <li>
+                    Created an auction event monitoring system for reducing
+                    blockchain RPC costs and improving the user experience.
+                  </li>
+                  <li>
+                    Implemented a fully offline local blockchain node that
+                    enabled future developers to test out new smart contracts
+                    and features without having to deploy to a testnet.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="flex flex-col">
+                <div className="flex flex-row space-x-6">
+                  <h4 className="flex flex-row space-x-6">
+                    <a
+                      href="https://www.findoctave.com/"
+                      target="_blank"
+                      className="text-blue-500"
+                    >
+                      Octave
+                    </a>
+                  </h4>
+                  <p>2022 Nov - 2023 Jan</p>
+                </div>
+                <p>
+                  A modern therapy practice creating a new standard for mental
+                  health care that's both high-quality and accessible
+                </p>
+                <ul className="ml-4 list-disc py-4">
+                  <li>
+                    Refactored all missing and incorrect Typescript types across
+                    the entire frontend codebase, improving the developer
+                    experience and reducing the number of bugs.
+                  </li>
+                  <li>
+                    Redesigned the e2e Playwright test suite to be more
+                    performant, maintainable, and reliable.
+                  </li>
+                  <li>
+                    Implemented a new feature that enabled users to change their
+                    personal details without having to message support, reducing
+                    the number of support tickets and improving the user
+                    experience.
+                  </li>
+                </ul>
+              </div>
+
+              {/* <h4 className="flex flex-row space-x-6">
+                <a
+                  href="https://hypotenuse.ca/"
+                  target="_blank"
+                  className="text-blue-500"
+                >
+                  Shrapnel
+                </a>
+                <p>2023 Jun - 2023 Jul</p>
+              </h4>
+              <h4 className="flex flex-row space-x-6">
+                <a
+                  href="https://hypotenuse.ca/"
+                  target="_blank"
+                  className="text-blue-500"
+                >
+                  Ensemble
+                </a>
+                <p>2023 Jan - 2023 Jun</p>
+              </h4>
+              <h4 className="flex flex-row space-x-6">
+                <a
+                  href="https://hypotenuse.ca/"
+                  target="_blank"
+                  className="text-blue-500"
+                >
+                  Octave
+                </a>
+                <p>2022 Nov - 2023 Jan</p>
+              </h4> */}
             </div>
 
             <div className="flex-row space-y-2 mb-2 mt-4">
