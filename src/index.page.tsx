@@ -133,17 +133,17 @@ const App = () => {
 						</div>
 						<div className="flex-row space-y-2 my-4">
 							<p>
-								Typescript, Javascript, React, Redux, Apollo, GraphQL, Ethers,
-								Viem, Next.js, Tailwind, Jest, Vitest, Playwright,
+								Typescript, Javascript, React, Redux, Apollo, GraphQL, Wagmi,
+								Ethers, Viem, Next.js, Tailwind, Jest, Vitest, Playwright.
 							</p>
 							<p>
 								Node.js, Express, Fastify, MongoDB, Google App Engine, Cloud
 								Functions, Firebase, Web Sockets, Memcached, Redis, AWS Lambdas,
 								Amazon S3, Google Cloud Storage, Google Cloud Run, Serverless
 								Framework, Cloudflare Workers, Cloudflare R3, IPFS, Pinata,
-								Fleek, Storybook, Vite, Vercel, Server Sent Events,
+								Fleek, Storybook, Vite, Vercel, Server Sent Events.
 							</p>
-							<p>Docker, Postman, Twilio, Git</p>
+							<p>Docker, Postman, Twilio, Git.</p>
 						</div>
 					</div>
 				</section>
