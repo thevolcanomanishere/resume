@@ -522,6 +522,10 @@ const App = () => {
 								</p>
 								<ul className="ml-4 list-disc py-4">
 									<li>
+										Refactored Next.js frontend code to optimize build times,
+										improve developer experience, and optimized all assets.
+									</li>
+									<li>
 										Redesigned the auction system to enabled live updates as
 										auctions are progressing and refactored all related code for
 										performance and maintainability.
