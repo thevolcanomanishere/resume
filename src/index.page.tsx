@@ -234,9 +234,7 @@ const App = () => {
 								<ul className="ml-4 list-disc py-4">
 									<li>
 										Collaborated with 14 ecosystem partners to ensure
-										infrastructure readiness for the [redacted] testnet launch,
-										demonstrating strong problem-solving and coordination
-										skills.
+										infrastructure readiness for the [redacted] testnet launch.
 									</li>
 									<li>
 										Developed a comprehensive methodology for assessing and
@@ -262,8 +260,8 @@ const App = () => {
 										</li>
 									</ul>
 									<li>
-										Implemented ponder.sh indexer in order to reduce pressure on
-										overloaded testnet RPC nodes, thus improving the user
+										Implemented a ponder.sh indexer in order to reduce pressure
+										on overloaded testnet RPC nodes, thus improving the user
 										experience.
 									</li>
 									<li>
