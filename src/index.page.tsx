@@ -154,6 +154,26 @@ const App = () => {
 							<h2 className="text-2xl mr-2 font-serif">Personal Projects</h2>
 							<hr className="border border-gray mt-1.5" />
 						</div>
+						<div className="my-4 max-w-md">
+							<h1 className="underline text-xl">ts-chainlink-datafeed 📈</h1>
+							<p>
+								Typescript library for interacting with{" "}
+								<a className="text-blue-500" href="https://data.chain.link/">
+									Chainlink datafeeds
+								</a>{" "}
+								that leverages{" "}
+								<a className="text-blue-500" href="https://viem.sh/">
+									Viem
+								</a>{" "}
+								under the hood.
+							</p>
+							<a
+								className="text-blue-500"
+								href="https://github.com/hyplabs/ts-chainlink-datafeed"
+							>
+								Github
+							</a>
+						</div>
 						<div className="flex flex-row flex-wrap justify-between">
 							<div className="my-4 max-w-md">
 								<h1 className="underline text-xl">Phrase Encrypt 🔐</h1>
